@@ -29,5 +29,5 @@ jobs:
         docker build -t hasprilla/docker-graphql:1.0.2 . 
     - name: Push Docker Image
       run: |
-        docker build -t hasprilla/docker-graphql:1.0.2 . 
+        docker push hasprilla/docker-graphql:1.0.2
     
